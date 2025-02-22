@@ -13,8 +13,8 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           TIME_RANGE: all_time
-          SHOW_LANGUAGE: true
-          SHOW_LINES_OF_CODE: true
-          SHOW_PROFILE_VIEWS: true
+          SHOW_LANGUAGE: "True"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_PROFILE_VIEWS: "True"
           
           
